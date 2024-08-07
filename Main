@@ -1,1 +1,766 @@
 
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "Supernova Reboot",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "SupernovaConfig"
+    })
+
+    local Tab = Window:MakeTab({
+        Name = "Bypasses",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+        })
+
+    local Section = Tab:AddSection({
+        Name = "Bypasses"
+        })
+    Tab : AddButton({
+      Name = "Anti Chat Logger",
+      Callback = function()
+
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
+          print("button pressed")
+      end
+        })
+
+    Tab : AddButton({
+        Name = "Nigga",
+        Callback = function()
+            local message = "ñïggå"
+            local player = game:GetService("Players").LocalPlayer
+
+            local function sayMessage(msg)
+                local args = {
+                    [1] = msg,
+                    [2] = "All"
+                }
+
+                game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+            end
+
+            sayMessage(message)
+            print("button pressed")
+        end
+        })
+    Tab : AddButton({
+       Name = "Kys Fag",
+       Callback = function()
+           local message = "куѕ ƒαg"
+           local player = game:GetService("Players").LocalPlayer
+
+           local function sayMessage(msg)
+               local args = {
+                   [1] = msg,
+                   [2] = "All"
+               }
+
+               game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+           end
+
+           sayMessage(message)
+           print("button pressed")
+       end
+        })
+    Tab : AddButton({
+   Name = "Cock",
+   Callback = function()
+       local message = "匚ㄖ匚Ҝ"
+       local player = game:GetService("Players").LocalPlayer
+
+       local function sayMessage(msg)
+           local args = {
+               [1] = msg,
+               [2] = "All"
+           }
+
+           game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+       end
+
+       sayMessage(message)
+       print("button pressed")
+   end
+        })
+    Tab : AddButton({
+Name = "Suck my Cock",
+Callback = function()
+    local message = "§µ¢k m¥ ¢ð¢k"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+        })
+    Tab : AddButton({
+Name = "Big Black Cock",
+Callback = function()
+    local message = "ßÌG ßLÄÇK ÇÖÇK"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+        })
+        Tab : AddButton({
+Name = "Cunt",
+Callback = function()
+    local message = "🅲🆄🅽🆃"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Big Tiddy Goth Gf",
+Callback = function()
+    local message = "🅱🅸🅶 🆃🅸🅳🅳🆈 🅶🅾🆃🅷 🅶🅵"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Fat Ass",
+Callback = function()
+    local message = "🅵🅰🆃 🅰🆂🆂"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Fuck Me Harder",
+Callback = function()
+    local message = "🅵🆄🅲🅺 🅼🅴 🅷🅰🆁🅳🅴🆁!"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Shut the fuck up you st-",
+Callback = function()
+    local message = "🆂🅷🆄🆃 🆃🅷🅴 🅵🆄🅲🅺 🆄🅿 🆈🅾🆄 🆂🆃🆄🅿🅸🅳 🅵🅰🅶🅶🅾🆃 🆆🅸🆃🅷 🅽🅾 🅿🅰🆁🅴🅽🆃"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "YOU FUCKING NIGGER",
+Callback = function()
+    local message = "🆈🅾🆄 🅵🆄🅲🅺🅸🅽🅶 🅽🅸🅶🅶🅴🆁"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Fuck me Daddy",
+Callback = function()
+    local message = "🅵🆄🅲🅺 🅼🅴 🅳🅰🅳🅳🆈"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Kys You Stupid Fag",
+Callback = function()
+    local message = "ᴋʏꜱ ʏᴏᴜ ꜱᴛᴜᴘɪᴅ ꜰᴀɢ"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "You should end it all <3",
+Callback = function()
+    local message = "ʏᴏᴜ ꜱʜᴏᴜʟᴅ ᴇɴᴅ ɪᴛ ᴀʟʟ <3"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "I Dont Like Niggers",
+Callback = function()
+    local message = "🅸 🅳🅾🅽🆃 🅻🅸🅺🅴 🅽🅸🅶🅶🅴🆁🆂"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "I Dont Like Wiggers",
+Callback = function()
+    local message = "🅸 🅳🅾🅽🆃 🅻🅸🅺🅴 🆆🅸🅶🅶🅴🆁🆂"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Kill Yourself",
+Callback = function()
+    local message = "ᴋɪʟʟ ʏᴏᴜʀꜱᴇʟꜰ"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "I Touch Little Kids",
+Callback = function()
+    local message = "I̶ ̶T̶O̶U̶C̶H̶ ̶L̶I̶T̶T̶L̶E̶ ̶K̶I̶D̶S̶"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Can I Fuck Your Ass?",
+Callback = function()
+    local message = "🅲🅰🅽 🅸 🅵🆄🅲🅺 🆈🅾🆄🆁 🅰🆂🆂?"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Fucking Retard",
+Callback = function()
+    local message = "🅵🆄🅲🅺🅸🅽🅶 🆁🅴🆃🅰🆁🅳"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            local Tab = Window:MakeTab({
+     Name = "Bypasses",
+     Icon = "rbxassetid://4483345998",
+     PremiumOnly = false
+        })
+            local Section = Tab:AddSection({
+                Name = "Owners Favorites"
+        })
+        Tab : AddButton({
+Name = "Super Senior Gojo 1",
+Callback = function()
+    local message = "🅷🅴🅻🅻🅾 🅼🆂 🅼🅸🅽🅸 🅶🆈🅰🆃🆃 🆆🅰🅻🅺🅸🅽🅶 🆃🅾 🅲🅻🅰🆂🆂 🅸 🆂🅴🅴?"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 2",
+Callback = function()
+    local message = "🅷🅰🅷🅰🅷🅰 🆆🅷🅴🆁🅴 🅳🅾 🆈🅾🆄 🆃🅷🅸🅽🅺 🆈🅾🆄🆁 🅶🅾🅸🅽🅶"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 3",
+Callback = function()
+    local message = "🆆🅸🆃🅷 🆃🅷🅰🆃 🆃🅷🅰🅽🅶 🅷🅰🅽🅶🅸🅽🅶 🅾🆄🆃"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 4",
+Callback = function()
+    local message = "🅸🅼 🅶🅾🅹🅾 🅷🅰 🅷🅰 🅷🅰 🅵🆁🅴🆂🅷🅼🅰🅽 🅾🅵 🆂🅴🆅🅴🅽 🆈🅴🅰🆁🆂"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 5",
+Callback = function()
+    local message = "🅸 🆆🅰🆂 🆃🆁🅰🅽🆂🅵🅴🆁🆁🅴🅳 🆃🅾 🆁🅸🆉🆉🅰🅲🅰🅳🅴🅼🆈"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 6",
+Callback = function()
+    local message = "🅰🅵🆃🅴🆁 🅸 🆆🅰🆂 🅺🅸🅲🅺🅴🅳 🅵🆁🅾🅼 🅶🆈🅰🆃🆃🅴🆁🆂🅾🅽 🅷🅸🅶🅷🆂🅲🅷🅾🅾🅻"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 7",
+Callback = function()
+    local message = "🅽🅸🅲🅴 🆃🅾 🅼🅴🅴🆃 🆈🅾🆄"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 8",
+Callback = function()
+    local message = "🆆🅰🅸🆃 🆆🅷🅰🆃? 🅽🅾 🅵🆁🅴🆂🅷🅼🅴🅽??"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 9",
+Callback = function()
+    local message = "🅱🆄🆃 🆃🅷🅾🆂🅴 🆆🅷🅸🆃🅴 🅿🅴🆁🆁🆃🆈 🅶🆈🅰🆃🆃🆂"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 10",
+Callback = function()
+    local message = "🅸-🅸 🅽🅴🅴🅳 🅼🆈 🅶🆈🅰🆃🆃🆂! 🅸-🅸 🅽🅴🅴🅳 🅼🆈 🅶🆈🅰🆃🆃🆂!"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 11",
+Callback = function()
+    local message = "🅸🅵 🅸 🅲🅰🅽🆃 🅷🅰🆅🅴 🅼🆈 🅶🆈🅰🆃🆃🆂! 🆃🅷🅴🅽 🅽🅾🅾🅽🅴 🅲🅰🅽!!"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 12",
+Callback = function()
+    local message = "🅼🅰🆇🅸🅼🆄🅼 🅾🆄🆃🅳🆁🅸🆅🅴 🅿🆄🆁🅿🅻🅴 🅰🅸🆁 🆃🅷🅸🆂 🅱🅸🆃🅲🅷 🅾🆄🆃"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 13",
+Callback = function()
+    local message = "🅸-🅸 🅽🅴🅴🅳 🅼🅾🆁🅴. 🅸 🅽🅴🅴🅳 🅼🅾🆁🅴 🅵🆁🅴🆂🅷🅼🅴🅽 🅱🅰🅺🅴🅳 🅶🆈🅰🆃🆃🆂"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 14",
+Callback = function()
+    local message = "🆆🅷🅰🆃 🅸🆂 🆃🅷🅰🆃? 🅸🆂 🆃🅷🅰🆃 🅰 🅾🆁🅿🅷🅰🅽🅰🅶🅴 🅸 🆂🅴🅴?"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 15",
+Callback = function()
+    local message = "🅳🅾🅽🆃 🆈🅾🆄 🅲🅾🅼🅴 🅰🅽🆈 🅲🅻🅾🆂🅴🆁 🅽🅾🆆."
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 16",
+Callback = function()
+    local message = "🅸🅵 🆈🅾🆄 🅲🅾🅼🅴 🅰🅽🆈 🅲🅻🅾🆂🅴🆁 🅸🅻🅻 🅰🅸🆁 🆃🅷🅴🅼 🅾🆄🆃 🆃🅾🅾"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 17",
+Callback = function()
+    local message = "🆂🅾 🆃🅷🅰🆃 🅽🅾🅱🅾🅳🆈 🅲🅰🅽 🅷🅰🆅🅴 🅰🅽🆈 🅶🆈🅰🆃🆃🆂"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+            Tab : AddButton({
+Name = "Super Senior Gojo 18",
+Callback = function()
+    local message = "🆃🅸🅼🅴🆂 🆄🅿! 🅿🆄🆁🅿🅿🅿🅻🅴🅴🅴🅴!!!"
+    local player = game:GetService("Players").LocalPlayer
+
+    local function sayMessage(msg)
+        local args = {
+            [1] = msg,
+            [2] = "All"
+        }
+
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest : FireServer(unpack(args))
+    end
+
+    sayMessage(message)
+    print("button pressed")
+end
+            })
+
+
+
+
+
+
+    OrionLib : Init()
+
